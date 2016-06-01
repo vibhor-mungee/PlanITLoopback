@@ -1,0 +1,219 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Activity": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "ActivitySpecific": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "AgricultureProfile": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "AnimalHusbandry": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "CommunityInstitutes": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "CreditInstitute": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "DieseaseVi": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "District": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "EducationalInst": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "EducationProfile": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Farmer": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "ForestFauna": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "ForestFlora": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "HhAssest": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "HhAssetsMaster": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Household": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "HouseHoldSize": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "IndividualHhAsset": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "IndvidualsHousehold": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Institute": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "InstituteActivityRel": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "InstituteVillageRel": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Issue": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "IssueActivityRel": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Market": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "MarketProduct": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Ntfp": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "OccupationVi": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Plan": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "PlanActivityRel": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "PopulationVi": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Profession": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Scheme": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "SchemeActivityRel": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "SelfHelpGroup": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "SelfHelpMember": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "SituationAnalysis": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Skills": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "SolutionChart": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "State": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Taluk": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "UserPlanRel": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Vegetation": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "ViAssest": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "Village": {
+    "dataSource": "plands",
+    "public": true
+  },
+  "VillageActivityRel": {
+    "dataSource": "plands",
+    "public": true
+  }
+}
